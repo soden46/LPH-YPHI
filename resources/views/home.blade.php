@@ -3,25 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Rekrutmen Bento Kopi</title>
+    <title>Yayasan Produk Halal Indonesia</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Law Firm Website Template" name="keywords">
-    <meta content="Law Firm Website Template" name="description">
+    <meta content="Yayasan Produk Halal Indonesia" name="keywords">
+    <meta content="Yayasan Produk Halal Indonesia" name="description">
 
     <!-- Favicon -->
     <link href="assets/img/favicon.ico" rel="icon">
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
 
     <!-- CSS Libraries -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="{{asset('assets/lib/animate/animate.min.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/lib/animate/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -39,7 +41,7 @@
                     <div class="navbar-nav mr-auto">
                         <div class="logo">
                             <a href="i/">
-                                <img src="assets/img/bgi.png" alt="Logo" width="" height="46">
+                                <img src="assets/img/logo.png" alt="Logo" width="" height="46">
                             </a>
                         </div>
                         <a href="/recruitment" class="nav-item nav-link active">Recruitment</a>
@@ -50,7 +52,7 @@
                     </div>
                     <div class="ml-auto">
                         <a class="btn" href="/login">Masuk</a>
-                        <a class="btn" href="{{route('register')}}">Daftar</a>
+                        <a class="btn" href="{{ route('register') }}">Daftar</a>
                     </div>
 
             </nav>
@@ -67,21 +69,21 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{asset('assets/img/bento1.jpeg')}}" alt="Carousel Image">
+                <img src="{{ asset('assets/img/bento1.jpeg') }}" alt="Carousel Image">
                 <div class="carousel-caption">
                     <h1 class="animated fadeInLeft">Bento Kopi</h1>
                 </div>
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset('assets/img/NUansa2.jpg')}}" alt="Carousel Image">
+                <img src="{{ asset('assets/img/NUansa2.jpg') }}" alt="Carousel Image">
                 <div class="carousel-caption">
                     <h1 class="animated fadeInLeft">NUansa Kopi</h1>
                 </div>
             </div>
 
             <div class="carousel-item">
-                <img src="{{asset('assets/img/menoewa.jpg')}}" alt="Carousel Image">
+                <img src="{{ asset('assets/img/menoewa.jpg') }}" alt="Carousel Image">
                 <div class="carousel-caption">
                     <h1 class="animated fadeInLeft">Menoewa Kopi</h1>
                 </div>
@@ -129,16 +131,19 @@
             <div id="accordion">
                 <div class="card">
                     <div class="card-header">
-                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
+                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne"
+                            aria-expanded="true">
                             <span>1</span> Barista
                         </a>
                     </div>
                     <div id="collapseOne" class="collapse show" data-parent="#accordion">
                         <div class="card-body">
                             <p><b>Deskripsi</b></p>
-                            <p>Barista adalah Bagian yang memiliki tanggung jawab untuk membuat dan menyajikan minuman sesuai pesanan dan standar yang sudah ditetapkan.</p>
+                            <p>Barista adalah Bagian yang memiliki tanggung jawab untuk membuat dan menyajikan minuman
+                                sesuai pesanan dan standar yang sudah ditetapkan.</p>
                             <p><b>Tugas Barista</b></p>
-                            <p>Berpenampilan baik, Pengetahuan dibagian kitchen, Sehat jasmani dan rohani, Kemampuan umum, Berusia maksimal 25 tahun.</p>
+                            <p>Berpenampilan baik, Pengetahuan dibagian kitchen, Sehat jasmani dan rohani, Kemampuan
+                                umum, Berusia maksimal 25 tahun.</p>
                         </div>
                     </div>
                 </div>
@@ -151,9 +156,11 @@
                     <div id="collapseTwo" class="collapse" data-parent="#accordion">
                         <div class="card-body">
                             <p><b>Deskripsi</b></p>
-                            <p>Cook adalah Bagian yang memiliki tanggung jawab untuk membuat dan menyajikan minuman sesuai pesanan dan standar yang sudah ditetapkan.</p>
+                            <p>Cook adalah Bagian yang memiliki tanggung jawab untuk membuat dan menyajikan minuman
+                                sesuai pesanan dan standar yang sudah ditetapkan.</p>
                             <p><b>Tugas Cook</b></p>
-                            <p>Berpenampilan baik, Pengetahuan dibagian kitchen, Sehat jasmani dan rohani, Kemampuan umum, Berusia maksimal 25 tahun.</p>
+                            <p>Berpenampilan baik, Pengetahuan dibagian kitchen, Sehat jasmani dan rohani, Kemampuan
+                                umum, Berusia maksimal 25 tahun.</p>
                         </div>
                     </div>
                 </div>
@@ -166,9 +173,11 @@
                     <div id="collapseThree" class="collapse" data-parent="#accordion">
                         <div class="card-body">
                             <p><b>Deskripsi</b></p>
-                            <p>Kebersihan/public area adalah bagian yang memiliki tanggung jawab terhadap kebersihan dan kerapian cafe.</p>
+                            <p>Kebersihan/public area adalah bagian yang memiliki tanggung jawab terhadap kebersihan dan
+                                kerapian cafe.</p>
                             <p><b>Tugas Kebersihan</b></p>
-                            <p>Bertanggung Jawab terhadap kebersihan cafe, Menjaga dan memelihara taman dan tanaman di cafe, Mengontrol kebersihan cafe setiap saat.</p>
+                            <p>Bertanggung Jawab terhadap kebersihan cafe, Menjaga dan memelihara taman dan tanaman di
+                                cafe, Mengontrol kebersihan cafe setiap saat.</p>
                         </div>
                     </div>
                 </div>
@@ -181,9 +190,11 @@
                     <div id="collapseFour" class="collapse" data-parent="#accordion">
                         <div class="card-body">
                             <p><b>Deskripsi</b></p>
-                            <p>Kasir adalah Bagian yang bertugas untuk melayani pelanggan dan menginput transaksi pesanan.</p>
+                            <p>Kasir adalah Bagian yang bertugas untuk melayani pelanggan dan menginput transaksi
+                                pesanan.</p>
                             <p><b>Tugas Kasir</b></p>
-                            <p>Melayani tamu atau pelanggan kafe yang datang dengan 5s, Melakukan pencatatan semua transaksi, Memberikan informasi mengenai produk kepada konsumen.</p>
+                            <p>Melayani tamu atau pelanggan kafe yang datang dengan 5s, Melakukan pencatatan semua
+                                transaksi, Memberikan informasi mengenai produk kepada konsumen.</p>
                         </div>
                     </div>
                 </div>
@@ -200,18 +211,21 @@
                     <h2>Dokumen Yang Harus Dilengkapi</h2>
                 </div>
                 <div class="about-text">
-                    <p><b>Sebelum melakukan pendaftaran silahkan menyiapkan dokumen administrasi sebagai berikut :</b></p>
+                    <p><b>Sebelum melakukan pendaftaran silahkan menyiapkan dokumen administrasi sebagai berikut :</b>
+                    </p>
                     <p>1. Pas Foto ukuran 4 x 6 (berwarna) (Photo colored);</p>
                     <p>2. Scan KTP Asli (ID Card);</p>
                     <p>3. Scan Ijazah / Surat Keterangan Lulus (SKL) (Graduation Certificate);</p>
                     <p>4. Scan Transkrip nilai (Transcript);</p>
                     <p>5. Scan Kartu Keluarga (Family Card);</p>
                     <p>6. CV (Curriculum Vitae);</p>
-                    <p>7. Scan Surat Keterangan Berbadan Sehat dari Rumah Sakit/Puskesmas/Klinik (pemeriksaan per September 2022) (Certificate of Health);</p>
+                    <p>7. Scan Surat Keterangan Berbadan Sehat dari Rumah Sakit/Puskesmas/Klinik (pemeriksaan per
+                        September 2022) (Certificate of Health);</p>
                     <p>8. Scan Surat Referensi Pengalaman Bekerja Asli (apabila ada) (Reference Letter);</p>
                     <p>9. Scan Sertifikat Kompetensi/Pelatihan (apabila ada) (Competence Certificate).</p>
                     <p>Keterangan :</p>
-                    <p>Harap menggabungkan dokumen sesuai dengan urutan. Dokumen yang diunggah tidak sesuai urutan akan berpengaruh pada proses seleksi administrasi.</p>
+                    <p>Harap menggabungkan dokumen sesuai dengan urutan. Dokumen yang diunggah tidak sesuai urutan akan
+                        berpengaruh pada proses seleksi administrasi.</p>
                 </div>
             </div>
         </div>
@@ -359,7 +373,9 @@
                     <div class="footer-about">
                         <h2>About Us</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu lectus a leo tristique dictum nec non quam. Suspendisse convallis, tortor eu placerat rhoncus, lorem quam iaculis felis, sed eleifend lacus neque id eros. Integer convallis volutpat neque
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu lectus a leo tristique
+                            dictum nec non quam. Suspendisse convallis, tortor eu placerat rhoncus, lorem quam iaculis
+                            felis, sed eleifend lacus neque id eros. Integer convallis volutpat neque
                         </p>
                     </div>
                 </div>
@@ -388,7 +404,10 @@
                         <div class="col-md-6 col-lg-4">
                             <div class="footer-contact">
                                 <h2>Get In Touch</h2>
-                                <p><i class="fa fa-map-marker-alt"></i><a href="https://goo.gl/maps/6edT9xCVWra5Q4bb7">Sentrum Space. Jl. S. Hartono Jl. Kaliurang Timur No.KM 10, Gondangan, Sardonoharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta</a></p>
+                                <p><i class="fa fa-map-marker-alt"></i><a
+                                        href="https://goo.gl/maps/6edT9xCVWra5Q4bb7">Sentrum Space. Jl. S. Hartono Jl.
+                                        Kaliurang Timur No.KM 10, Gondangan, Sardonoharjo, Kec. Ngaglik, Kabupaten
+                                        Sleman, Daerah Istimewa Yogyakarta</a></p>
                                 <p><i class="fa fa-phone-alt"></i>+628</p>
                                 <p><i class="fa fa-envelope"></i>info@bentokopi.com</p>
                                 <div class="footer-social">
@@ -404,7 +423,10 @@
                 </div>
             </div>
         </div>
-        <center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15814.442879205526!2d110.4018482!3d-7.7248477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb93133ac1166d07c!2sSentrum%20Space!5e0!3m2!1sid!2sid!4v1671466824319!5m2!1sid!2sid" width="800" height="200" style="border:0;" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+        <center><iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15814.442879205526!2d110.4018482!3d-7.7248477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb93133ac1166d07c!2sSentrum%20Space!5e0!3m2!1sid!2sid!4v1671466824319!5m2!1sid!2sid"
+                width="800" height="200" style="border:0;" allowfullscreen="false" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe></center>
         <div class="container footer-menu">
             <div class="f-menu">
                 <a href="">Terms of use</a>
@@ -423,12 +445,12 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="{{asset('assets/lib/easing/easing.min.js')}}"></script>
-    <script src="{{asset('assets/lib/owlcarousel/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('assets/lib/isotope/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ asset('assets/lib/easing/easing.min.js') }}"></script>
+    <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/lib/isotope/isotope.pkgd.min.js') }}"></script>
 
     <!-- Template Javascript -->
-    <script src="{{asset('assets/js/main.js')}}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>

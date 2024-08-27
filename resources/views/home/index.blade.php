@@ -1,6 +1,6 @@
 @extends('layouts.home.master', [
-    'title' => 'HOME | Bento Group Indonesia',
-    'pageTitle' => 'HOME | Bento Group Indonesia',
+    'title' => 'Yayasan Produk Halal Indonesia',
+    'pageTitle' => 'Yayasan Produk Halal Indonesia',
 ])
 @section('content')
     <!-- Header Start -->
