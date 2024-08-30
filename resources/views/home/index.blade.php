@@ -11,7 +11,8 @@
                     <h1 class="display-4 mb-2 animated slideInDown" style="font-size: 3rem;">Yayasan Produk Halal INDONESIA
                     </h1>
                     <p class="animated slideInDown">Daftar Sertifikasi halal mandiri lebih cepat dan mudah.</p>
-                    <a href="" class="btn btn-primary py-3 px-4 mt-3 animated slideInDown">Daftar Disini</a>
+                    <a href="https://ptsp.halal.go.id/" class="btn btn-primary py-3 px-4 mt-3 animated slideInDown">Daftar
+                        Disini</a>
                 </div>
                 <div class="col-lg-6 animated slideInUp">
                     <img class="img-fluid animated pulse infinite" style="animation-duration: 3s;"
