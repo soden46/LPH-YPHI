@@ -68,6 +68,7 @@
                         halal, dimana pada waktu itu Dr. Muhammad Yanis Musdja sebagai Dosen HALAL SAINS UIN Syarif
                         Hidayatullah dan mewakili Lembaga Masyarakat (YPHI) diminta oleh Kemenag RI untuk membantu
                         penyusunan UU Jaminan Produk Halal.</p>
+                    <a href="{{ url('/profile') }}" class="btn btn-success">Selengkapnya</a>
                 </div>
             </div>
         </div>
