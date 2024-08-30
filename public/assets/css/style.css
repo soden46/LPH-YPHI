@@ -1354,3 +1354,20 @@ a:focus {
     color: #fab43c;
     background: #0a0a0a;
 }
+/* Border Menu Sihalal */
+.sihalal-link {
+    position: relative; /* Memungkinkan pengaturan posisi border */
+    padding: 0.5rem 1rem; /* Padding agar border tidak terlalu ketat dengan teks */
+    border: 2px solid #007bff; /* Warna dan ukuran border */
+    border-radius: 5px; /* Membuat border sedikit melengkung */
+    color: #007bff; /* Warna teks */
+    text-align: center;
+    font-weight: bold;
+    transition: color 0.3s, border-color 0.3s; /* Animasi transisi */
+}
+
+.sihalal-link:hover {
+    color: #fff; /* Warna teks saat hover */
+    background-color: #007bff; /* Warna latar belakang saat hover */
+    border-color: #0056b3; /* Warna border saat hover */
+}

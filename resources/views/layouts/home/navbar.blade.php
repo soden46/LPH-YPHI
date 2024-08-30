@@ -20,14 +20,16 @@
                     <a href="{{ url('/struktur-organisasi') }}"
                         class="nav-item nav-link {{ Request::is('struktur-organisasi') ? 'active' : '' }}">Struktur
                         Organisasi</a>
-                    <a href="{{ url('/auditor-halal') }}"
-                        class="nav-item nav-link {{ Request::is('auditor-halal') ? 'active' : '' }}">Auditor Halal</a>
+                    <a href="{{ url('/auditor') }}"
+                        class="nav-item nav-link {{ Request::is('auditor') ? 'active' : '' }}">Auditor Halal</a>
                     <a href="{{ url('/proses-sertifikasi') }}"
                         class="nav-item nav-link {{ Request::is('proses-sertifikasi') ? 'active' : '' }}">Proses
                         Sertifikasi</a>
                     <a href="{{ url('/kontak') }}"
                         class="nav-item nav-link {{ Request::is('kontak') ? 'active' : '' }}">Kontak</a>
-                    <a href="https://ptsp.halal.go.id/" target="_blank" class="nav-item nav-link">SIHALAL</a>
+                    <a href="https://ptsp.halal.go.id/" target="_blank"
+                        class="nav-item nav-link sihalal-link">SIHALAL</a>
+
                 </div>
             </div>
     </div>

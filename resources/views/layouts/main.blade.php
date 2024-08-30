@@ -4,12 +4,27 @@
 <head>
     <meta charset="utf-8">
     <title>Yayasan Produk Halal Indonesia</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Lembaga Pemeriksa Halal Yayasan Produk Halal Indonesia (YPHI) adalah lembaga profesional yang menyediakan layanan pemeriksaan halal berdasarkan sains dan teknologi terkini dengan standar internasional. Misi kami adalah menyediakan analisis kehalalan produk yang jujur, amanah, independen, kredibel, dan menjaga kerahasiaan produk pelaku usaha.">
+    <meta name="keywords"
+        content="Halal, Lembaga Pemeriksa Halal, YPHI, Sertifikasi Halal, Analisis Halal, Produk Halal, Lembaga Halal Indonesia">
+    <meta name="author" content="Lembaga Pemeriksa Halal Yayasan Produk Halal Indonesia">
+    <meta property="og:title" content="Lembaga Pemeriksa Halal Yayasan Produk Halal Indonesia">
+    <meta property="og:description"
+        content="YPHI adalah lembaga pemeriksa halal profesional di Indonesia yang menggunakan sains dan teknologi terkini. Kami menyediakan layanan pemeriksaan halal yang jujur, amanah, dan kredibel.">
+    <meta property="og:url" content="https://LPH-YPHI.com">
+    <meta property="og:image" content="URL_TO_YOUR_IMAGE">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lembaga Pemeriksa Halal Yayasan Produk Halal Indonesia">
+    <meta name="twitter:description"
+        content="YPHI adalah lembaga pemeriksa halal profesional di Indonesia dengan fokus pada analisis kehalalan produk menggunakan teknologi terkini.">
+    <meta name="twitter:image" content="URL_TO_YOUR_IMAGE">
 
     <!-- Favicon -->
-    <link href="assets/img/favicon.ico" rel="icon">
+    <link rel="shortcut icon" type="image/x-generic" href="/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Google Font -->
     <link
