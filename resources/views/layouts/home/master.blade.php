@@ -59,7 +59,7 @@
                         <div class="footer-about">
                             <h2>LPH YPHI</h2>
                             <p>
-                                Yayasan Produk Halal Indonesia (YPHI)Didirikan oleh Dr. Muhammad Yanis Musdja dan
+                                Yayasan Produk Halal Indonesia (YPHI) Didirikan oleh Dr. Muhammad Yanis Musdja dan
                                 dibantu oleh Rahmat
                                 SH, MH, Ir, Dadi Sutardi, SH. Pendirian YPHI sangat didukung oleh Ikatan Cendekiawan
                                 Muslim
