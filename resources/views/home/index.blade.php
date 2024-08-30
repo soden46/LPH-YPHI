@@ -57,9 +57,15 @@
             <div class="content">
                 <img src="{{ asset('assets/img/hero-1.png') }}" alt="Barista" class="faq-img">
                 <div class="text-content">
-                    <h1>Deskripsi</h1>
-                    <p>Barista adalah Bagian yang memiliki tanggung jawab untuk membuat dan menyajikan minuman
-                        sesuai pesanan dan standar yang sudah ditetapkan.</p>
+                    <h1>Tenteng LPH YPHI</h1>
+                    <p>Yayasan Produk Halal Indonesia (YPHI)Didirikan oleh Dr. Muhammad Yanis Musdja dan dibantu oleh Rahmat
+                        SH, MH, Ir, Dadi Sutardi, SH. Pendirian YPHI sangat didukung oleh Ikatan Cendekiawan Muslim
+                        Indonesia (ICMI) DKI Jakarta yang pada waktu itu Ketua ICMI DKI dijabat oleh Andi Anzhar Cakra
+                        Wijaya SH dan Sekretris ICMI DKI Ir. Akhmad Sanusi dan Wakil Ketua ICMI DKI Jakarta Dr. Muhammad
+                        Yanis Musdja. Pada awal YPHI berdiri, misi YPHI adalah untuk membantu penyusunan UU Jaminan Produk
+                        halal, dimana pada waktu itu Dr. Muhammad Yanis Musdja sebagai Dosen HALAL SAINS UIN Syarif
+                        Hidayatullah dan mewakili Lembaga Masyarakat (YPHI) diminta oleh Kemenag RI untuk membantu
+                        penyusunan UU Jaminan Produk Halal.</p>
                 </div>
             </div>
         </div>
@@ -71,9 +77,8 @@
         <div class="container">
             <div class="content">
                 <div class="text-content">
-                    <h1>Deskripsi</h1>
-                    <p>Barista adalah Bagian yang memiliki tanggung jawab untuk membuat dan menyajikan minuman
-                        sesuai pesanan dan standar yang sudah ditetapkan.</p>
+                    <h1>xxxx</h1>
+                    <p>xxxx</p>
                 </div>
                 <img src="{{ asset('assets/img/hero-1.png') }}" alt="Barista" class="faq-img">
             </div>

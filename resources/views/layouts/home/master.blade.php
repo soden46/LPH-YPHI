@@ -57,22 +57,37 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="footer-about">
-                            <h2>About Us</h2>
+                            <h2>LPH YPHI</h2>
                             <p>
-                                Berdiri sejak awal tahun 2012 diawali dengan merintis Bento Kopi. Hingga saat ini, kami
-                                berkembang menjadi group usaha yang menaungi beberapa brand meliputi Food & Beverage,
-                                Properti, Budidaya, Kecantikan, dan Digital Marketing Agency.
+                                Yayasan Produk Halal Indonesia (YPHI)Didirikan oleh Dr. Muhammad Yanis Musdja dan
+                                dibantu oleh Rahmat
+                                SH, MH, Ir, Dadi Sutardi, SH. Pendirian YPHI sangat didukung oleh Ikatan Cendekiawan
+                                Muslim
+                                Indonesia (ICMI) DKI Jakarta yang pada waktu itu Ketua ICMI DKI dijabat oleh Andi Anzhar
+                                Cakra
+                                Wijaya SH dan Sekretris ICMI DKI Ir. Akhmad Sanusi dan Wakil Ketua ICMI DKI Jakarta Dr.
+                                Muhammad
+                                Yanis Musdja. Pada awal YPHI berdiri, misi YPHI adalah untuk membantu penyusunan UU
+                                Jaminan Produk
+                                halal, dimana pada waktu itu Dr. Muhammad Yanis Musdja sebagai Dosen HALAL SAINS UIN
+                                Syarif
+                                Hidayatullah dan mewakili Lembaga Masyarakat (YPHI) diminta oleh Kemenag RI untuk
+                                membantu
+                                penyusunan UU Jaminan Produk Halal.
                             </p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 d-flex justify-content-center">
                         <div class="footer-link">
                             <h2>Menu</h2>
-                            <a href="">Terms of use</a>
-                            <a href="">Privacy policy</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
+                            <a href="{{ url('/') }}">Home</a>
+                            <a href="{{ url('/profile') }}">Profile</a>
+                            <a href="{{ url('/struktur-organisasi') }}">Struktur
+                                Organisasi</a>
+                            <a href="{{ url('/auditor') }}">Auditor Halal</a>
+                            <a href="{{ url('/proses-sertifikasi') }}">Proses
+                                Sertifikasi</a>
+                            <a href="{{ url('/kontak') }}">Kontak</a>
                             <div name="syarifsoden" style="text-align:center;display: none;"><a
                                     href="https://syarifsoden.blogspot.com/">Syarif Soden</a>
                             </div>

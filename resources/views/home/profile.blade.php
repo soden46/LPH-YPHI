@@ -13,9 +13,8 @@
             <!-- Visi Start -->
             <div class="mt-5 wow fadeInUp" data-wow-delay="0.2s">
                 <h2 style="font-size: 2.5rem; margin-bottom: 20px; text-transform: uppercase;">Visi</h2>
-                <p style="padding-left: 1em;">Menjadi lembaga sertifikasi terdepan dalam menjamin mutu dan kualitas produk
-                    serta
-                    jasa sesuai dengan standar yang berlaku, demi kepuasan konsumen dan kemajuan bangsa.</p>
+                <p style="padding-left: 1em;">Menjadi Lembaga Pemeriksa Halal yang profesional berdasarkan sains dan
+                    teknologi terkini dengan standar internasional.</p>
             </div>
             <!-- Visi End -->
 
@@ -23,13 +22,11 @@
             <div class="mt-4 wow fadeInUp" data-wow-delay="0.3s">
                 <h2 style="font-size: 2.5rem; margin-bottom: 20px; text-transform: uppercase;">Misi</h2>
                 <ol class="list-unstyled" style="padding-left: 1em;">
-                    <li>1. Menyelenggarakan sertifikasi yang kredibel dan akurat dengan standar internasional.</li>
-                    <li>2. Memberikan layanan yang cepat, transparan, dan responsif terhadap kebutuhan klien.</li>
-                    <li>3. Membangun kerjasama yang erat dengan para pemangku kepentingan.</li>
-                    <li>4. Meningkatkan kompetensi dan profesionalisme tenaga kerja melalui pelatihan dan pengembangan
-                        berkelanjutan.</li>
-                    <li>5. Mendorong inovasi dan penerapan teknologi untuk mendukung proses sertifikasi yang efisien dan
-                        efektif.</li>
+                    <li>1. Menyelengarakan proses pemeriksaan halal yang jujur, amanah, independen, kredibel dan menjaga
+                        kerahasiaan produk pelaku usaha.</li>
+                    <li>2. Mendayagunakan sains dan teknologi terkini dalam menganalisis kehalalan produk.</li>
+                    <li>3. Membantu pelaku usaha untuk membuat produk halal sehingga dapat lolos dalam analisis kehalalan
+                        produk berdasarkan ketentuan yang berlaku.</li>
                 </ol>
             </div>
             <!-- Misi End -->
