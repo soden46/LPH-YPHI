@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Yayasan Produk Halal Indonesia</title>
+    <title style="text-transform: uppercase;">Yayasan Produk Halal Indonesia - LPH YPHI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Lembaga Pemeriksa Halal Yayasan Produk Halal Indonesia (YPHI) adalah lembaga profesional yang menyediakan layanan pemeriksaan halal berdasarkan sains dan teknologi terkini dengan standar internasional. Misi kami adalah menyediakan analisis kehalalan produk yang jujur, amanah, independen, kredibel, dan menjaga kerahasiaan produk pelaku usaha.">

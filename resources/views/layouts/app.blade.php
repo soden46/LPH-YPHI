@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Bento Kopi') }}</title>
+    <title>{{ config('app.name', 'YAYASAN PRODUK HALAL INDONESIA - LPH YPHI') }}</title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">

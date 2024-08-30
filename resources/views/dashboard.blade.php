@@ -4,16 +4,17 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Yayasan Produk Halal Indonesia">
-    <meta name="author" content="">
+    <title style="text-transform: uppercase;">Yayasan Produk Halal Indonesia - LPH YPHI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Lembaga Pemeriksa Halal Yayasan Produk Halal Indonesia (YPHI) adalah lembaga profesional yang menyediakan layanan pemeriksaan halal berdasarkan sains dan teknologi terkini dengan standar internasional. Misi kami adalah menyediakan analisis kehalalan produk yang jujur, amanah, independen, kredibel, dan menjaga kerahasiaan produk pelaku usaha.">
+    <meta name="keywords"
+        content="Halal, Lembaga Pemeriksa Halal, YPHI, Sertifikasi Halal, Analisis Halal, Produk Halal, Lembaga Halal Indonesia">
+    <meta name="author" content="Lembaga Pemeriksa Halal Yayasan Produk Halal Indonesia">
+    <meta property="og:title" content="Lembaga Pemeriksa Halal Yayasan Produk Halal Indonesia">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @can('admin')
         <title>Admin | {{ $title ?? 'Dashboard' }}</title>
-    @endcan
-    @can('pelamar')
-        <title>Pelamar | {{ $title ?? 'Dashboard' }}</title>
     @endcan
     <!-- Custom fonts for this template-->
     <link href="{{ asset('template/backend/sb-admin-2/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet"
