@@ -80,7 +80,31 @@
             <div class="content">
                 <div class="text-content">
                     <h1>Mengapa Harus Memilih LPH YPHI</h1>
-                    <p>isi</p>
+                    <p>LPH YPHI memiliki misi untuk Menjadi Lembaga Pemeriksa Halal yang profesional berdasarkan sains dan
+                        teknologi terkini dengan standar internasional.
+                    </p>
+                    <p>LPH YPHI lebih banyak melakukan training tentang produk halal untuk Tingkat Nasional dan
+                        Internasional yang bekerja sama dengan Lembaga Halal YARSI dibawah pimpinan Prof. Dr. Jurnalis Udin
+                        dan Dr. Anna P. Roswim, termasuk untuk analisis kehalalan produk, dimana pada saat ini Universitas
+                        YARSI adalah salah satu Universitas yang paling bagus dan lengkap peralatannya untuk analisis produk
+                        halal. Disamping itu YPHI membantu Prof. Dr. Sapta Nirwandar menerbitkan Majalah Halal Lifestyle
+                        pada awal tahun 2014, dan Prof. Dr. Sapta Nirwandar selalu mendorong dan menfasilitasi agar YPHI
+                        segera mempunyai LPH.</p>
+                    <p>Untuk mendirikan LPH YPHI telah diadakan kerja sama sejak awal tahun 2015 dengan PT. RAFA TOPAZ UTAMA
+                        dibawah pimpinan Ir. RUDI ANTONI yang bergerak dalam bidang pengadaan dan supplier alat-alat
+                        analisis kimia dan peralatan kesehatan di Rumah Sakit. Kerjasama ini difasilitasi oleh Pimpinan
+                        Kawasan Industri Pulogadung (JIEP), karena itu LPH YPHI kerja sama dengan PT. RAFA TOPAZ UTAMA
+                        sekretariatnya dan laboratoriumnya didirikan di Kawasan Industri Pulogadung (JIEP).
+                    </p>
+                    <p>
+                        Untuk melakukan pengembangan analisis kehalalan produk YPHI telah melakukan kerja sama dengan Korea
+                        Testing Laboratory (KTL). Piagam kerjasa ditandatangani di Seoul pada tanggal 29 Juli 2016, dan KTL
+                        telah menghibahkan ke YPHI sejumlah alat analisis halal seperti PCR, GCMS, HPLC dan beberapa
+                        peralatan lainnya. Sedangkan untuk penempatannya di laboratorium dibantu oleh PT. RAFA TOPAZ UTAMA.
+                        Begitu juga dengan Lembaga Halal Thailand, YPHI telah melakukan Perjanjian Kerjasama yang dibuat di
+                        Bangkok, Thailand pada tanggal 25 Desember 2015, perjanjian kerjasama ini dibuat untuk saling
+                        membantu dalam berbagai aspek yang menyangkut kehalalan produk.
+                    </p>
                     <a href="{{ url('/profile') }}" class="btn btn-success">Daftar Sekarang</a>
                 </div>
                 <img src="{{ asset('assets/img/hero-1.png') }}" alt="Barista" class="faq-img">
