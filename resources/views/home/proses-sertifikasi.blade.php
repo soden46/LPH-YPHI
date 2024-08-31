@@ -33,7 +33,7 @@
                                 </div>
                                 <div class="timeline-item">
                                     <div class="timeline-hexagon">
-                                        <img src="{{ asset('assets/img/logo-BPJPH.png') }}" alt="BPJPH" width="72px">
+                                        <img src="{{ asset('assets/img/bpjph.png') }}" alt="BPJPH" width="72px">
                                     </div>
                                     <div class="timeline-content">
                                         <h5>2. BPJPH</h5>
@@ -72,7 +72,7 @@
                             <div class="timeline-column">
                                 <div class="timeline-item">
                                     <div class="timeline-hexagon">
-                                        <img src="{{ asset('assets/img/logo-BPJPH.png') }}" alt="BPJPH" width="72px"
+                                        <img src="{{ asset('assets/img/bpjph.png') }}" alt="BPJPH" width="72px"
                                             width="72px">
                                     </div>
                                     <div class="timeline-content">
@@ -110,7 +110,7 @@
                                 </div>
                                 <div class="timeline-item">
                                     <div class="timeline-hexagon">
-                                        <img src="{{ asset('assets/img/logo-bpjph.png') }}" alt="BPJPH" width="72px">
+                                        <img src="{{ asset('assets/img/bpjph.png') }}" alt="BPJPH" width="72px">
                                     </div>
                                     <div class="timeline-content">
                                         <h5>8. BPJPH</h5>
