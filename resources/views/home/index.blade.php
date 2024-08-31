@@ -105,7 +105,7 @@
                         Bangkok, Thailand pada tanggal 25 Desember 2015, perjanjian kerjasama ini dibuat untuk saling
                         membantu dalam berbagai aspek yang menyangkut kehalalan produk.
                     </p>
-                    <a href="{{ url('/profile') }}" class="btn btn-success">Daftar Sekarang</a>
+                    <a href="https://ptsp.halal.go.id/" class="btn btn-success">Daftar Sekarang</a>
                 </div>
                 <img src="{{ asset('assets/img/hero-1.png') }}" alt="Barista" class="faq-img">
             </div>
