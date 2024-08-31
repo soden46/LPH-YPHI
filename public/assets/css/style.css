@@ -1371,3 +1371,73 @@ a:focus {
     background-color: #007bff; /* Warna latar belakang saat hover */
     border-color: #0056b3; /* Warna border saat hover */
 }
+
+/* Proses Sertifikasi */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.timeline-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.timeline-column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/* Hexagon Background Atas*/
+.timeline-hexagon {
+    width: 80px;
+    height: 92px;
+    background: #039342; /* Ubah warna latar belakang hexagon */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    position: relative;
+    z-index: 2; /* Pastikan berada di atas garis penghubung */
+}
+
+.timeline-hexagon img {
+    max-width: 50%;
+    max-height: 50%;
+    position: relative;
+    z-index: 3; /* Memastikan ikon berada di atas latar belakang hexagon */
+}
+
+.timeline-content {
+    flex: 1;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    text-align: left;
+    z-index: 2;
+    position: relative; /* Pastikan berada di atas garis penghubung */
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 1px);
+    width: 2px;
+    height: 100%;
+    background: #039342; /* Ubah warna garis vertikal */
+    z-index: 1; /* Pastikan berada di bawah konten */
+    transform: translateY(-50%);
+}
