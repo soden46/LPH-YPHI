@@ -33,7 +33,7 @@
                 <div class="col-lg-10 col-md-12">
                     <div class="row g-5">
                         <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.1s">
-                            <img class="img-fluid mb-4" src="img/logo-partner1.png" alt="Partner 1">
+                            <img class="img-fluid mb-4" src="{{ asset('assets/img/rafa.png') }}" alt="PT Rafa Topaz Utama">
                             {{-- <p class="fs-5 text-primary mb-0">Partner 1</p> --}}
                         </div>
                         <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.3s">
