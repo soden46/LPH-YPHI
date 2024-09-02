@@ -35,6 +35,11 @@ class HomeController extends Controller
         return view('home.proses-sertifikasi');
     }
 
+    public function ProsesPencabutanSertifikasi()
+    {
+        return view('home.proses-pencabutan-sertifikasi');
+    }
+
     public function Kontak()
     {
         return view('home.kontak');

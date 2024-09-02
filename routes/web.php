@@ -47,6 +47,7 @@ Route::get('/profile', [HomeController::class, 'profile'])->middleware('guest');
 Route::get('/struktur-organisasi', [HomeController::class, 'struktur'])->middleware('guest');
 Route::get('/auditor', [HomeController::class, 'AuditorHalal'])->middleware('guest');
 Route::get('/proses-sertifikasi', [HomeController::class, 'ProsesSertifikasi'])->middleware('guest');
+Route::get('/proses-pencabutan-sertifikasi', [HomeController::class, 'ProsesPencabutanSertifikasi'])->middleware('guest');
 Route::get('/kontak', [HomeController::class, 'Kontak'])->middleware('guest');
 
 Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');

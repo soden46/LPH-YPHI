@@ -152,9 +152,9 @@
                             </div>
                             <div class="timeline-content">
                                 <h5>3. LPH YPHI</h5>
-                                <p>LPH YPHI akan menginput biaya pemeriksaan terhadap produk/layanan yang diajukan
-                                    oleh Pemilik usaha untuk diterbitkan invoice oleh BPJPH. Biaya terdiri dari Biaya
-                                    Pemeriksaan, Biaya Pengujian, Biaya Akomodasi</p>
+                                <p>LPH YPHI kemudian menetapkan biaya pemeriksaan yang mencakup Biaya Pemeriksaan, Biaya
+                                    Pengujian, dan Biaya Akomodasi, kemudian BPJPH menerbitkan invoice untuk pelaku usaha.
+                                </p>
                             </div>
                         </div>
                         <div class="timeline-item">
@@ -163,8 +163,8 @@
                             </div>
                             <div class="timeline-content">
                                 <h5>4. Pemilik Usaha</h5>
-                                <p>Pelaku Usaha akan melakukan Pembayaran atas Invoice yang telah diterbitkan oleh BPJPH dan
-                                    oleh LPH.</p>
+                                <p>Pemilik usaha lalu melakukan pembayaran sesuai dengan invoice yang diterbitkan oleh
+                                    BPJPH.</p>
                             </div>
                         </div>
                     </div>
@@ -176,9 +176,9 @@
                             </div>
                             <div class="timeline-content">
                                 <h5>5. BPJPH</h5>
-                                <p>BPJPH akan memeriksa pembayaran yang dilakukan oleh Pelaku Usaha, jika sesuai BPJPH akan
-                                    menerbitkan STTD (surat tanda terima pendaftaran), dan prosesnya dikirim ke LPH
-                                    YPHI.</p>
+                                <p>BPJPH memverifikasi pembayaran yang dilakukan, dan jika pembayaran sudah sesuai, BPJPH
+                                    menerbitkan Surat Tanda Terima Pendaftaran (STTD) dan melanjutkan proses ke LPH YPHI
+                                    untuk pemeriksaan lebih lanjut.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
@@ -187,10 +187,8 @@
                             </div>
                             <div class="timeline-content">
                                 <h5>6. LPH YPHI</h5>
-                                <p>LPH YPHI melakukan Pemeriksaan dan/atau Menguji Kehalalan Produk yang diusulkan
-                                    oleh Pemilik Usaha, dan membuat Laporan hasil pemeriksaan. Kemudian mengirimkan Laporan
-                                    ke Komisi Fatwa MUI melalui aplikasi sihalal untuk dilakukan Sidang Fatwa Penetapan
-                                    Kehalalan Produk.</p>
+                                <p>LPH YPHI selanjutnya akan melakukan inspeksi lapangan dan pengujian laboratorium untuk
+                                    memastikan produk sesuai dengan syariat Islam.</p>
                             </div>
                         </div>
                         <div class="timeline-item">
@@ -199,8 +197,9 @@
                             </div>
                             <div class="timeline-content">
                                 <h5>7. MUI</h5>
-                                <p>MUI (Majelis Ulama Indonesia) memberikan fatwa kehalalan Produk, dan akan mengeluarkan
-                                    Surat Ketetapan Halal atas Produk/Jasa yang diusulkan oleh Pelaku Usaha.</p>
+                                <p>MUI akan mengadakan sidang fatwa berdasarkan hasil pemeriksaan dari LPH YPHI, dan jika
+                                    produk dinyatakan halal, fatwa tersebut menjadi dasar untuk penerbitan sertifikat halal.
+                                </p>
                             </div>
                         </div>
                         <div class="timeline-item">
@@ -209,7 +208,8 @@
                             </div>
                             <div class="timeline-content">
                                 <h5>8. BPJPH</h5>
-                                <p>BPJPH menerbitkan sertifikat Halal, dan Pelaku Usaha dapat mengunduhnya melalui aplikasi
+                                <p>BPJPH akan menerbitkan sertifikat halal berdasarkan fatwa MUI dan mengunggahnya ke sistem
+                                    PTSP Halal, dan Pelaku Usaha dapat mengunduhnya melalui aplikasi
                                     PTSP Halal (https://ptsp.halal.go.id).</p>
                             </div>
                         </div>

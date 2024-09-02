@@ -97,11 +97,11 @@
                         <div class="footer-contact">
                             <h2>Get In Touch</h2>
                             <p><i class="fa fa-map-marker-alt"></i><a
-                                    href="https://goo.gl/maps/6edT9xCVWra5Q4bb7">Sentrum Space. Jl. S. Hartono Jl.
-                                    Kaliurang Timur No.KM 10, Gondangan, Sardonoharjo, Kec. Ngaglik, Kabupaten Sleman,
-                                    Daerah Istimewa Yogyakarta</a></p>
-                            <p><i class="fa fa-phone-alt"></i>0813-2719-2837</p>
-                            <p><i class="fa fa-envelope"></i>info@bentogroupindonesia.com</p>
+                                    href="https://maps.app.goo.gl/ZVh9rYi8mzWVksRX7">Lembaga Pemeriksa Halal YPHI
+                                    Jl. Pulobuaran III BPSP Type B blok D No. 6 Kawasan Industri Pulogadung,
+                                    Jakarta Timur (13930)</a></p>
+                            <p><i class="fa fa-phone-alt"></i>08</p>
+                            <p><i class="fa fa-envelope"></i></p>
                             <div class="footer-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -113,10 +113,9 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15814.442879205526!2d110.4018482!3d-7.7248477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb93133ac1166d07c!2sSentrum%20Space!5e0!3m2!1sid!2sid!4v1671466824319!5m2!1sid!2sid"
-                        width="800" height="200" style="border:0;" allowfullscreen="false" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+                    <iframe src="https://www.google.com/maps/embed" width="800" height="200" style="border:0;"
+                        allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </center>
                 </div>
             </div>
         </div>

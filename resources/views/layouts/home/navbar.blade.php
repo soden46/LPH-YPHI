@@ -22,9 +22,22 @@
                         Organisasi</a>
                     <a href="{{ url('/auditor') }}"
                         class="nav-item nav-link {{ Request::is('auditor') ? 'active' : '' }}">Auditor Halal</a>
-                    <a href="{{ url('/proses-sertifikasi') }}"
-                        class="nav-item nav-link {{ Request::is('proses-sertifikasi') ? 'active' : '' }}">Proses
-                        Sertifikasi</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle {{ Request::is('proses-sertifikasi') || Request::is('proses-pencabutan-sertifikasi') ? 'active' : '' }}"
+                            href="#" id="alurSertifikasiDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Alur Sertifikasi
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="alurSertifikasiDropdown">
+                            <a href="{{ url('/proses-sertifikasi') }}"
+                                class="dropdown-item {{ Request::is('proses-sertifikasi') ? 'active' : '' }}">Proses
+                                Pengajuan Sertifikasi</a>
+                            <a href="{{ url('/proses-pencabutan-sertifikasi') }}"
+                                class="dropdown-item {{ Request::is('proses-pencabutan-sertifikasi') ? 'active' : '' }}">Proses
+                                Pencabutan Sertifikasi</a>
+                        </div>
+                    </li>
+
                     <a href="{{ url('/kontak') }}"
                         class="nav-item nav-link {{ Request::is('kontak') ? 'active' : '' }}">Kontak</a>
                     <a href="https://ptsp.halal.go.id/" target="_blank"
