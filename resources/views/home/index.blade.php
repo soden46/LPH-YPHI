@@ -32,23 +32,19 @@
                 </div>
                 <div class="col-lg-10 col-md-12">
                     <div class="row g-5">
-                        <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.1s">
-                            <img class="img-fluid mb-4" src="{{ asset('assets/img/rafa.png') }}" alt="PT Rafa Topaz Utama">
-                            {{-- <p class="fs-5 text-primary mb-0">Partner 1</p> --}}
-                        </div>
-                        <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.3s">
-                            <img class="img-fluid mb-4" src="img/logo-partner2.png" alt="Partner 2">
-                            {{-- <p class="fs-5 text-primary mb-0">Partner 2</p> --}}
-                        </div>
-                        <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.5s">
-                            <img class="img-fluid mb-4" src="img/logo-partner3.png" alt="Partner 3">
-                            {{-- <p class="fs-5 text-primary mb-0">Partner 3</p> --}}
-                        </div>
+                        @foreach ($partner as $index => $p)
+                            <div class="col-lg-4 col-md-6 text-center wow fadeIn" data-wow-delay="0.{{ $index * 2 + 1 }}s">
+                                <img class="img-fluid mb-4" src="{{ asset('storage/' . $p->logo_partner) }}"
+                                    alt="{{ $p->nama_partner }}">
+                                {{-- <p class="fs-5 text-primary mb-0">{{ $p->nama_partner }}</p> --}}
+                            </div>
+                        @endforeach
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Didukung Oleh End -->
 
     <!-- Tentang Start -->
@@ -58,15 +54,7 @@
                 <img src="{{ asset('assets/img/hero-1.png') }}" alt="Barista" class="faq-img">
                 <div class="text-content">
                     <h1>Tentang LPH YPHI</h1>
-                    <p>Yayasan Produk Halal Indonesia (YPHI) Didirikan oleh Dr. Muhammad Yanis Musdja dan dibantu oleh
-                        Rahmat
-                        SH, MH, Ir, Dadi Sutardi, SH. Pendirian YPHI sangat didukung oleh Ikatan Cendekiawan Muslim
-                        Indonesia (ICMI) DKI Jakarta yang pada waktu itu Ketua ICMI DKI dijabat oleh Andi Anzhar Cakra
-                        Wijaya SH dan Sekretris ICMI DKI Ir. Akhmad Sanusi dan Wakil Ketua ICMI DKI Jakarta Dr. Muhammad
-                        Yanis Musdja. Pada awal YPHI berdiri, misi YPHI adalah untuk membantu penyusunan UU Jaminan Produk
-                        halal, dimana pada waktu itu Dr. Muhammad Yanis Musdja sebagai Dosen HALAL SAINS UIN Syarif
-                        YPHI dan mewakili Lembaga Masyarakat (YPHI) diminta oleh Kemenag RI untuk membantu
-                        penyusunan UU Jaminan Produk Halal.</p>
+                    <p>{!! $tentang !!}</p>
                     <a href="{{ url('/profile') }}" class="btn btn-success">Selengkapnya</a>
                 </div>
             </div>
@@ -80,31 +68,7 @@
             <div class="content">
                 <div class="text-content">
                     <h1>Mengapa Harus Memilih LPH YPHI</h1>
-                    <p>LPH YPHI memiliki misi untuk Menjadi Lembaga Pemeriksa Halal yang profesional berdasarkan sains dan
-                        teknologi terkini dengan standar internasional.
-                    </p>
-                    <p>LPH YPHI lebih banyak melakukan training tentang produk halal untuk Tingkat Nasional dan
-                        Internasional yang bekerja sama dengan Lembaga Halal YARSI dibawah pimpinan Prof. Dr. Jurnalis Udin
-                        dan Dr. Anna P. Roswim, termasuk untuk analisis kehalalan produk, dimana pada saat ini Universitas
-                        YARSI adalah salah satu Universitas yang paling bagus dan lengkap peralatannya untuk analisis produk
-                        halal. Disamping itu YPHI membantu Prof. Dr. Sapta Nirwandar menerbitkan Majalah Halal Lifestyle
-                        pada awal tahun 2014, dan Prof. Dr. Sapta Nirwandar selalu mendorong dan menfasilitasi agar YPHI
-                        segera mempunyai LPH.</p>
-                    <p>Untuk mendirikan LPH YPHI telah diadakan kerja sama sejak awal tahun 2015 dengan PT. RAFA TOPAZ UTAMA
-                        dibawah pimpinan Ir. RUDI ANTONI yang bergerak dalam bidang pengadaan dan supplier alat-alat
-                        analisis kimia dan peralatan kesehatan di Rumah Sakit. Kerjasama ini difasilitasi oleh Pimpinan
-                        Kawasan Industri Pulogadung (JIEP), karena itu LPH YPHI kerja sama dengan PT. RAFA TOPAZ UTAMA
-                        sekretariatnya dan laboratoriumnya didirikan di Kawasan Industri Pulogadung (JIEP).
-                    </p>
-                    <p>
-                        Untuk melakukan pengembangan analisis kehalalan produk YPHI telah melakukan kerja sama dengan Korea
-                        Testing Laboratory (KTL). Piagam kerjasa ditandatangani di Seoul pada tanggal 29 Juli 2016, dan KTL
-                        telah menghibahkan ke YPHI sejumlah alat analisis halal seperti PCR, GCMS, HPLC dan beberapa
-                        peralatan lainnya. Sedangkan untuk penempatannya di laboratorium dibantu oleh PT. RAFA TOPAZ UTAMA.
-                        Begitu juga dengan Lembaga Halal Thailand, YPHI telah melakukan Perjanjian Kerjasama yang dibuat di
-                        Bangkok, Thailand pada tanggal 25 Desember 2015, perjanjian kerjasama ini dibuat untuk saling
-                        membantu dalam berbagai aspek yang menyangkut kehalalan produk.
-                    </p>
+                    <p>{!! $mengapa !!}</p>
                     <a href="https://ptsp.halal.go.id/" class="btn btn-success">Daftar Sekarang</a>
                 </div>
                 <img src="{{ asset('assets/img/hero-1.png') }}" alt="Barista" class="faq-img">
@@ -172,7 +136,8 @@
                     <div class="timeline-column">
                         <div class="timeline-item">
                             <div class="timeline-hexagon">
-                                <img src="{{ asset('assets/img/bpjph.png') }}" alt="BPJPH" width="72px" width="72px">
+                                <img src="{{ asset('assets/img/bpjph.png') }}" alt="BPJPH" width="72px"
+                                    width="72px">
                             </div>
                             <div class="timeline-content">
                                 <h5>5. BPJPH</h5>

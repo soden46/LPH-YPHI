@@ -97,11 +97,9 @@
                         <div class="footer-contact">
                             <h2>Get In Touch</h2>
                             <p><i class="fa fa-map-marker-alt"></i><a
-                                    href="https://maps.app.goo.gl/ZVh9rYi8mzWVksRX7">Lembaga Pemeriksa Halal YPHI
-                                    Jl. Pulobuaran III BPSP Type B blok D No. 6 Kawasan Industri Pulogadung,
-                                    Jakarta Timur (13930)</a></p>
-                            <p><i class="fa fa-phone-alt"></i>08</p>
-                            <p><i class="fa fa-envelope"></i></p>
+                                    href="https://maps.app.goo.gl/ZVh9rYi8mzWVksRX7">{!! $alamat !!}</a></p>
+                            <p><i class="fa fa-phone-alt"></i>{!! $no_hp !!}</p>
+                            <p><i class="fa fa-envelope"></i>{!! $email !!}</p>
                             <div class="footer-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>

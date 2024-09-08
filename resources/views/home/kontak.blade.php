@@ -17,21 +17,21 @@
                             <i class="fas fa-map-marker-alt fa-2x mr-3"></i>
                             <div>
                                 <h5>Alamat</h5>
-                                <p>Jl. Contoh Alamat No.123, Kota, Negara</p>
+                                <p>{!! $alamat !!}</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-3">
                             <i class="fas fa-envelope fa-2x mr-3"></i>
                             <div>
                                 <h5>Email</h5>
-                                <p><a href="mailto:info@example.com">info@example.com</a></p>
+                                <p><a href="mailto:info@example.com">{!! $email !!}</a></p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-3">
                             <i class="fas fa-phone fa-2x mr-3"></i>
                             <div>
                                 <h5>Nomor HP</h5>
-                                <p>+62 123 456 789</p>
+                                <p>{!! $no_hp !!}</p>
                             </div>
                         </div>
                         <div class="map-container border rounded">

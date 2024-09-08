@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
 
 class LoginController extends Controller
 {
@@ -29,11 +30,16 @@ class LoginController extends Controller
             'email' => 'required',
             'password' => 'required'
         ]);
-        // dd('berhasil login');
+
+        Log::info('Attempting to login with credentials:', $credentials);
+
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
+            Log::info('Login successful');
             return redirect()->intended('/dashboard');
         }
+
+        Log::warning('Login failed');
         return back()->with('error', 'Login Error');
     }
 
@@ -44,6 +50,6 @@ class LoginController extends Controller
         Request()->session()->invalidate();
         Request()->session()->regenerate();
 
-        return redirect('/login');
+        return redirect()->route('home');
     }
 }
